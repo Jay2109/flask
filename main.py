@@ -67,8 +67,8 @@ company=pd.read_csv('company.csv')
 symbol=company['Symbol']
 
 
-for sym in symbol:
-  stock_predict(sym)
+for sym in range(150,300):
+  stock_predict(symbol[sym])
 
 
 	
